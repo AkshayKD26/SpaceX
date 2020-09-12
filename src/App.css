@@ -1,38 +1,38 @@
-.App {
-  text-align: center;
+body{
+  background-color: #e9ecef !important;
+}
+.img-container{
+  max-width: 90%;
+  overflow: hidden;
+  background-color: #e9ecef !important;
+  margin: auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.mission-img{
+  width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.mission-name{
+  color: #007bff;
+  font-weight: bold;
+  font-size: 16px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.mission-label{
+  font-weight: bold;
+  font-size: 16px;
 }
-
-.App-link {
-  color: #61dafb;
+.mission-value{
+  color: #007bff;
+  font-size: 16px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.remove-filter{
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  color: red;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.textdecoration{
+  text-decoration: underline;
 }
