@@ -146,7 +146,7 @@ class Landing extends Component {
                 missionData.length > 0 &&
                 missionData.map((data, index) => {
                   return (
-                    <div className="col-sm-3 mt-3" key={index}>
+                    <div className="col-sm-6 col-md-3 mt-3" key={index}>
                       <MissionComponent data={data} />
                     </div>
                   );
